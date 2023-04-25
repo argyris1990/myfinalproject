@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">MyFinalProject</string>
+    <string name="Sign_Out">Sign out</string>
+    <string name="Language">Change to Finnish</string>
+    <string name="menu_action_update">Update</string>
+    <string name="menu_action_delete">Delete</string>
+    <string name="weight">WEIGHT</string>
+    <string name="health">HEALTH</string>
+    <string name="activity">ACTIVITY</string>
+    <string name="feeding">FEEDING</string>
+    <string name="pictures">PICTURES</string>
+    <string name="petID">petID</string>
+    <string name="successfully_deleted">Successfully deleted</string>
+    <string name="failed">Failed</string>
+    <string name="fill_in_the_required_fields">Fill in the required fields</string>
+    <string name="new_pet_added">New pet added.</string>
+    <string name="new_wight_added">New weight added.</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_out">Sign out</string>
+    <string name="signed_in_ass">Signed in as :</string>
+    <string name="sign_in_failed">Sign in failed</string>
+    <string name="delete">Delete?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="pet_information_updated">Pet\'s information updated.</string>
+    <string name="enter_your_pet_s_information">Enter your pet\'s information:</string>
+    <string name="date_of_birth">Date of Birth (DD/MM/YYYY)</string>
+    <string name="add_pet">Add Pet</string>
+    <string name="enter_your_pets_weight">Enter your pets weight:</string>
+    <string name="date">Date</string>
+    <string name="date_weight">Date</string>
+    <string name="weight_small">Weight</string>
+    <string name="send_weight">Send weight</string>
+    <string name="textview">TextView</string>
+    <string name="save">Save</string>
+    <string name="set_custom_data">Set custom data</string>
+    <string name="header">Header</string>
+    <string name="add_field">Add field</string>
+    <string name="add_field_names">Add field names</string>
+    <string name="add">ADD</string>
+    <string name="delete_caps">DELETE</string>
+    <string name="add_weight_caps">ADD weight</string>
+    <string name="name">Name</string>
+    <string name="species">Species</string>
+    <string name="breed">Breed</string>
+    <item name="home" type="id"/>
+    <string name="date_of_birth_noDDMMYYY">Date of birth</string>
+    <string name="button">Button</string>
+    <string name="update_your_pet_s_information">Update your pet\'s information:</string>
+    <string name="update_information">Update Information</string>
+    <string name="weight_colon">Weight:</string>
+    <string name="date_colon">Date:</string>
+    <string name="data_field">Data field</string>
+    <string name="textview2">TextView2</string>
+    <string name="images">Images</string>
+    <string name="new_feeding_added">New feeding added</string>
+    <string name="new_activity_added">New activity added</string>
+    <string name="type">Type</string>
+    <string name="duration">Duration</string>
+    <string name="enter_new_activity">Enter new activity:</string>
+    <string name="length_minutes">Length (minutes)</string>
+    <string name="add_new_activity">Add new activity</string>
+    <string name="add_new_feeding_to_your_pet">Add new feeding to your pet:</string>
+    <string name="time">Time</string>
+    <string name="food">Food</string>
+    <string name="send_new_food">Send new food</string>
+
+
+    <string-array name="pet_names">
+        <item>PetName1</item>
+        <item>PetName2</item>
+        <item>PetName3</item>
+        <item>PetName4</item>
+        <item>PetName5</item>
+        <item>PetName6</item>
+    </string-array>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyFinalProject"
+        tools:targetApi="31">
+        <activity
+            android:name=".AddNewActivitiesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PicsActivity"
+            android:exported="false"
+            android:parentActivityName=".PetView" />
+        <activity
+            android:name=".BaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivitiesActivity"
+            android:exported="false"
+            android:parentActivityName=".PetView" />
+        <activity
+            android:name=".FeedActivity"
+            android:exported="false"
+            android:parentActivityName=".PetView" />
+        <activity
+            android:name=".AddFeedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserData.UserDataAddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserData.UserDataViewActivity"
+            android:exported="false"
+            android:parentActivityName=".PetView" />
+        <activity
+            android:name=".UserData.UserDataCreateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdatePetActivity"
+            android:exported="false"
+            android:parentActivityName=".PetView" />
+        <activity
+            android:name=".AddPetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PetView"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AddWeightDataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WeightActivity"
+            android:exported="false"
+            android:parentActivityName=".PetView" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
